@@ -14,6 +14,7 @@ $( document ).ready(function() {
         });
         $("#"+obj.id).addClass("active");     
         $('.back-to-top').trigger("click");  
+        $("#cerrarNavMobile").click();
     }
 
 });
